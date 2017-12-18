@@ -1,0 +1,38 @@
+@mixin fullSize {
+  width: 100%;
+  height: 100%;
+}
+#slider {
+  @include fullSize;
+  position: relative;
+}
+.slider {
+  position: absolute;
+  left: 100%;
+  @include fullSize;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+}
+.slider:nth-of-type(1){
+  background-image: url(https://www.ciklum.com/wp-content/uploads/2016/03/home_hero_slide1-1-1.jpg);
+  animation: slideshow 12s linear 0s infinite;
+
+}
+.slider:nth-of-type(2){
+  background-image: url(https://www.ciklum.com/wp-content/uploads/2017/12/market_drive_hero.jpg);
+  animation: slideshow 12s linear 4s infinite;
+}
+.slider:nth-of-type(3){
+  background-image: url(https://www.ciklum.com/wp-content/uploads/2017/12/banner21.jpg);
+  animation: slideshow 12s linear 8s infinite;
+}
+
+@keyframes slideshow {
+   25% { opacity: 1; }
+   33.33% { opacity: 0; }
+   91.66% { opacity: 0; }
+   100% { opacity: 1; }
+}

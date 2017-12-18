@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#react-root,
+#container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#react-root {
+  @import 'components/loginForm';
+  @import 'components/header';
+  @import 'components/main';
+  @import 'components/footer';
+  @import 'components/slider';
+  @import 'components/common/input';
+  @import 'components/common/button';
+}

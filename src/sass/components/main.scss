@@ -1,0 +1,16 @@
+@mixin flex {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main {
+  height: calc(100% - 140px);
+  background-color: #f9f9fa;
+  @include flex;
+  background: url(https://ebuilders.nl/wp-content/uploads/2016/09/Header.jpg) center top no-repeat fixed;
+  background-size: cover;
+}
+.css-jxiqlq {
+  margin: 0 auto;
+}

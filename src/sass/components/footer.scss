@@ -1,0 +1,19 @@
+$white-color: #fff;
+
+#footer {
+  height: 70px;
+  width: 100%;
+  background-color: #333;
+  position: absolute;
+  bottom: 0;
+}
+#logOutBtn {
+  border: 1px solid $white-color;
+  padding: 6px 30px;
+  position: absolute;
+  right: 40px;
+  top: 23px;
+  background: transparent;
+  color: $white-color;
+  cursor: pointer;
+}

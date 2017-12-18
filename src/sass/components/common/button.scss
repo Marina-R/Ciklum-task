@@ -1,0 +1,28 @@
+@mixin btnCommon {
+  background: transparent;
+  right: 40px;
+  cursor: pointer;
+}
+
+#navBtn {
+  @include btnCommon;
+  font-size: 13px;
+  border: 1px solid #fff;
+  padding: 6px 30px;
+  position: absolute;
+  top: 20px;
+  color: #fff;
+}
+#formBtn {
+  @include btnCommon;
+  font-size: 16px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #f80;
+  top: 23px;
+  color: #f80;
+  width: 54%;
+}
+#formBtn:hover {
+  background-color: #f3f3f3;
+}

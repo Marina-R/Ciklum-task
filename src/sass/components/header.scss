@@ -1,0 +1,16 @@
+#header {
+  position: relative;
+  height: 70px;
+  background-color: #ca8d61;
+  border-bottom: 1px solid #333;
+  box-shadow: 1px 1px 10px #888;
+}
+#welcomeMsg {
+  display: inline-block;
+  float: right;
+  height: 100%;
+  font-size: 20px;
+  color: #f5f5f5;
+  line-height: 3.5;
+  padding-right: 20px;
+}

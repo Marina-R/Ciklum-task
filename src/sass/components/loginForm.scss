@@ -1,0 +1,15 @@
+#loginForm {
+    display: block;
+    flex: 0 1 50%;
+    align-self: center;
+    height: 250px;
+    background-color: #f1f1f1;
+    padding-top: 84px;
+    opacity: .97;
+}
+#error {
+  color: #f16d6d;
+  text-align: center;
+  font-size: 18px;
+  padding: 0 20px;
+}
