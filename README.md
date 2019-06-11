@@ -1,5 +1,3 @@
-# Ciklum-task starter kit for building applications in React, Gulp, SCSS and in ES6
-
 ## Get Started
 1. **Install [Node 6](https://nodejs.org)**.
 2. **Clone this repository.** - `git clone https://github.com/Marina-R/Ciklum-task.git` or [download the zip](https://github.com/Marina-R/Ciklum-task/archive/master.zip)
